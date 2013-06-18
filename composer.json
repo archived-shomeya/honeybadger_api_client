@@ -1,0 +1,26 @@
+{
+  "name": "shomeya/honeybadger",
+  "type": "library",
+  "description": "Honeybadger.io webservice client using Guzzle",
+  "keywords": ["rest", "web service", "client"],
+  "homepage": "http://github.com/shomeya/honeybadger_api_client",
+  "license": "GPL-2.0",
+
+  "authors": [
+    {
+      "name": "Michael Prasuhn",
+      "email": "mike@mikeyp.net",
+      "homepage": "http://shomeya.com"
+    }
+  ],
+
+  "require": {
+    "guzzle/guzzle": "3.4.*"
+  },
+
+  "autoload": {
+    "psr-0": {
+      "Honeybadger": "src/"
+    }
+  }
+}
